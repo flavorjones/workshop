@@ -1,0 +1,12 @@
+Using slidedown to generate the workshop slides
+   sudo gem install slidedown
+   slidedown workshop.md > workshop.html
+   open workshop.html
+
+use arrow keys to navigate slides
+
+to generate notes (html without the !SLIDES notation)
+   ./makenotes workshop.md workshop-notes.html
+
+not sure that's really print-able, but considering it for handouts
+
