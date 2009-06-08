@@ -131,18 +131,22 @@
 #push code to github
 * create a repository
 * follow the instructions
+
+!SLIDE
 <code>
-  git config --global user.name "Your Name"
-  git config --global user.email you@whatever.com
-  git remote add origin git@github.com:yourgithubname/project.git
-  git push origin master
+    git config --global user.name "Your Name"
+    git config --global user.email you@whatever.com
+    git remote add origin git@github.com:yourgithubname/project.git
+    git push origin master
 </code>
 
 !SLIDE
 #switch computers
+
+!SLIDE
 <code>
-  git clone git://github.com/yourgitname/project.git #TODO: is this right?
-  git pull
+    git clone git://github.com/yourgitname/project.git 
+    git pull
 </code>
 
 !SLIDE
@@ -169,18 +173,22 @@
   * ActionController
 
 !SLIDE
-# REST - Representational State Transfer, introduced in 2000 in the doctoral dissertation of Roy Fielding
-* http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+# REST 
+* Representational State Transfer
 * Application state and functionality are abstracted into resources
 * Each resource may be referenced with a global identifier (URI over HTTP)
 * Resources share a uniform interfaces
+* Note
+  * introduced in 2000 in the doctoral dissertation of Roy Fielding
+  * http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
 
-# In Rails, for an booklist app, this might look like
-* GET http://myserver.com/books - a list of all the books
-* GET http://myserver.com/books/1 - the first book
-* POST http://myserver.com/books - create a book
-* PUT http://myserver.com/books/1 - modify the first book
-* DELETE http://myserver.com/books/1 - delete the first book
+!SLIDE
+# REST URIs and HTTP actions
+* GET http://myserver.com/topics - a list of all the topics
+* GET http://myserver.com/topics/1 - the first topic
+* POST http://myserver.com/topics - create a topic
+* PUT http://myserver.com/topics/1 - modify the first topic
+* DELETE http://myserver.com/topics/1 - delete the first topic
 
 !SLIDE
 ![Architecture](http://img.skitch.com/20090606-ebjqmem1ynptm4ta6qy72hg9ap.jpg)

@@ -5022,6 +5022,56 @@ heroku rake db:migrate
         
           <div class="">
             <div id="slide-12" class="content">
+              <h1>push code to github</h1><ul>
+<li>create a repository</li>
+<li>follow the instructions</li>
+</ul>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-13" class="content">
+              <p><code></code></p><pre><code>git config --global user.name "Your Name"
+git config --global user.email you@whatever.com
+git remote add origin git@github.com:yourgithubname/project.git
+git push origin master
+</code></pre><p></p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-14" class="content">
+              <h1>switch computers</h1>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-15" class="content">
+              <p><code></code></p><pre><code>git clone git://github.com/yourgitname/project.git 
+git pull
+</code></pre><p></p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-16" class="content">
+              <h1>let's add topics</h1>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-17" class="content">
+              <h1>CRUD</h1><ul>
+<li>Create - enter a new topic</li>
+<li>Read - see everyone's topics</li>
+<li>Update - change the topics you entered</li>
+<li>Delete - remove your topics from the system</li>
+</ul>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-18" class="content">
               <h1>Model-View-Controller</h1><ul>
 <li>
 <strong>Model</strong>
@@ -5053,25 +5103,37 @@ heroku rake db:migrate
           </div>
         
           <div class="">
-            <div id="slide-13" class="content">
-              <h1>REST - Representational State Transfer, introduced in 2000 in the doctoral dissertation of Roy Fielding</h1><ul>
-<li>http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm</li>
+            <div id="slide-19" class="content">
+              <h1>REST</h1><ul>
+<li>Representational State Transfer</li>
 <li>Application state and functionality are abstracted into resources</li>
 <li>Each resource may be referenced with a global identifier (URI over HTTP)</li>
 <li>Resources share a uniform interfaces</li>
+<li>Note
+
+<ul>
+<li>introduced in 2000 in the doctoral dissertation of Roy Fielding</li>
+<li>http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm</li>
 </ul>
-<h1>In Rails, for an booklist app, this might look like</h1><ul>
-<li>GET http://myserver.com/books - a list of all the books</li>
-<li>GET http://myserver.com/books/1 - the first book</li>
-<li>POST http://myserver.com/books - create a book</li>
-<li>PUT http://myserver.com/books/1 - modify the first book</li>
-<li>DELETE http://myserver.com/books/1 - delete the first book</li>
+</li>
 </ul>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-14" class="content">
+            <div id="slide-20" class="content">
+              <h1>REST URIs and HTTP actions</h1><ul>
+<li>GET http://myserver.com/topics - a list of all the topics</li>
+<li>GET http://myserver.com/topics/1 - the first topic</li>
+<li>POST http://myserver.com/topics - create a topic</li>
+<li>PUT http://myserver.com/topics/1 - modify the first topic</li>
+<li>DELETE http://myserver.com/topics/1 - delete the first topic</li>
+</ul>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-21" class="content">
               <p><img src="http://img.skitch.com/20090606-ebjqmem1ynptm4ta6qy72hg9ap.jpg" alt="Architecture"></p>
             </div>
           </div>
