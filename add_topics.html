@@ -4886,6 +4886,13 @@ rake db:migrate
           <div class=" ">
             <div id="slide-4" class="content">
               <h1>What did we just do?</h1><ul>
+<li>a model
+
+<ul>
+<li>create    app/models/topic.rb</li>
+<li>create    db/migrate/20090611073227_create_topics.rb</li>
+</ul>
+</li>
 <li>4 views
 
 <ul>
@@ -4900,13 +4907,6 @@ rake db:migrate
 <ul>
 <li>create  app/controllers/topics_controller.rb</li>
 <li>route  map.resources :topics</li>
-</ul>
-</li>
-<li>a model
-
-<ul>
-<li>create    app/models/topic.rb</li>
-<li>create    db/migrate/20090611073227_create_topics.rb</li>
 </ul>
 </li>
 </ul>
@@ -4953,7 +4953,9 @@ rake db:migrate
         
           <div class=" code">
             <div id="slide-7" class="content">
-              <p>.</p><pre><code>git push heroku master
+              <p>.</p><pre><code>git add -A
+git commit -m 'topic crud'
+git push heroku master
 heroku rake db:migrate
 git push
 </code></pre>

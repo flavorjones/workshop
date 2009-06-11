@@ -58,6 +58,8 @@
 !SLIDE code
 .
 
+    git add -A
+    git commit -m 'topic crud'
     git push heroku master
     heroku rake db:migrate
     git push
