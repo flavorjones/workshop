@@ -113,24 +113,23 @@
 * we'll create a local git repository
 * then deploy to heroku
 
-!SLIDE
-<code>
+!SLIDE code
+.  
+
     git init
     git add .
     git commit -m 'basic web application'
-</code>
 
-!SLIDE
-<code>
+!SLIDE code
+.
+
     heroku create
     git push heroku master
-    heroku rake db:migrate
-</code>
 
 !SLIDE
 #push code to github
 * create a repository
-* follow the instructions
+* follow the instructions for existing repository
 
 !SLIDE
 <code>
@@ -143,54 +142,10 @@
 !SLIDE
 #switch computers
 
-!SLIDE
-<code>
+!SLIDE code
+.
+
     git clone git://github.com/yourgitname/project.git 
     git pull
-</code>
-
-!SLIDE
-#let's add topics
-
-!SLIDE
-#CRUD
-* Create - enter a new topic
-* Read - see everyone's topics
-* Update - change the topics you entered
-* Delete - remove your topics from the system 
-
-!SLIDE
-# Model-View-Controller
-* **Model**
-  * represents what is in the database 
-  * ActiveRecord
-* **View**
-  * the model rendered as HTML 
-  * ActionView, erb
-* **Controller**
-  * receives HTTP actions (GET, POST, PUT, DELETE)
-  * decides what to do, typically rendering a view 
-  * ActionController
-
-!SLIDE
-# REST 
-* Representational State Transfer
-* Application state and functionality are abstracted into resources
-* Each resource may be referenced with a global identifier (URI over HTTP)
-* Resources share a uniform interfaces
-* Note
-  * introduced in 2000 in the doctoral dissertation of Roy Fielding
-  * http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
-
-!SLIDE
-# REST URIs and HTTP actions
-* GET http://myserver.com/topics - a list of all the topics
-* GET http://myserver.com/topics/1 - the first topic
-* POST http://myserver.com/topics - create a topic
-* PUT http://myserver.com/topics/1 - modify the first topic
-* DELETE http://myserver.com/topics/1 - delete the first topic
-
-!SLIDE
-![Architecture](http://img.skitch.com/20090606-ebjqmem1ynptm4ta6qy72hg9ap.jpg)
-
+TODO: add Heroku collaborator?  how to set up?
 
