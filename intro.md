@@ -1,6 +1,13 @@
+!SLIDE centereverything
+
+<img src="img/railsbridge_logo.png">
+# Ruby on Rails Workshop
+### June 13th, 2009
+
 !SLIDE
-# Thank you to our sponsors
-* OrangeLabs 
+
+# Our fabulous sponsors!
+* Orange Labs 
 * Vodpod
 * SlideShare
 * Addison-Wesley
@@ -10,37 +17,76 @@
 * DevChix
 * RailsBridge
 
-![RailsBridge](http://teachingkids.railsbridge.org/images/logo.png)
-
 !SLIDE
+
 # Why are we here?
 
 !SLIDE
+
 # What is Ruby on Rails?
-* Web application framework written in Ruby
-  * Web application *template* 
-* Ruby is an Object Oriented scripting language
+
+!SLIDE
+
+<img src="img/web-application.png">
+
+!SLIDE
+
+<table width="100%">
+<tr>
+<td align="center">
+<img src="img/ruby-logo.jpg" width="250">
+</td>
+<td align="center">
+<img src="img/rails_logo.jpg">
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+# &nbsp;
+# &nbsp;
+
+!SLIDE
+
+<table width="100%">
+<tr>
+<td align="center">
+<img src="img/ruby-logo.jpg" width="250">
+</td>
+<td align="center">
+<img src="img/rails_logo.jpg">
+</td>
+</tr>
+<tr>
+<td align="center">
+<span class="big-text">Language</span>
+</td>
+<td align="center">
+<span class="big-text">Framework</span>
+</td>
+</tr>
+</table>
+# &nbsp;
+# &nbsp;
+
+!SLIDE
+
+## Ruby: programming language
+* Object oriented
+* general purpose
+
+## Rails: web application framework
 * Database agnostic
-* Open Source
-* History: 37signals (Jason Fried & David Heinemeier Hanson)
+* Open source
+* History: 37signals
 
 !SLIDE
 # The Rails Philosophy
-* Opinionated: convention over configuration
+* Opinionated
+* Convention over configuration
 * DRY (Don't Repeat Yourself)
-  * less code, easier to maintain, modify
+** less code means it's easier to maintain & modify
 * Test Driven Development (TDD)
-* Minimal Code with Maximum Effect
-
-
-!SLIDE code
-
-    def foo
-      :bar
-    end
-
-!SLIDE
-
-Google is [here](http://google.com)
-
-
+* Minimal code - maximal effect
