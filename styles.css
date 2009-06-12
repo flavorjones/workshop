@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.slide-hilite {
+  text-color: red;
+}
+
+.big-text {
+  font-size: 150%;
+}
+
 li {
     padding: 8;
 }
