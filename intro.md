@@ -25,7 +25,7 @@
 
 # What is Ruby on Rails?
 
-!SLIDE
+!SLIDE centereverything
 
 <img src="img/web-application.png">
 
@@ -75,7 +75,7 @@
 
 ## Ruby: programming language
 * Object oriented
-* general purpose
+* General purpose
 
 ## Rails: web application framework
 * Database agnostic
