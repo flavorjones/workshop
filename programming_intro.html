@@ -132,6 +132,9 @@ ul {
   font-size: 150%;
 }
 
+.table-code {
+  font-family: Bitstream Vera Sans Mono;
+}
 li {
     padding: 8;
 }
@@ -4959,6 +4962,105 @@ Mac OS X
               <span class="big-text"><pre><code>
 irb
 </code></pre></span>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-11" class="content">
+              <h2 id="variables">Variables</h2><h3 id="words_that_hold_information">words that hold information</h3><pre><code>
+&gt; my_variable = 5
+=&gt; 5
+&gt; my_other_variable = "hi"
+=&gt; "hi"
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-12" class="content">
+              <h2 id="types_of_information">Types of information</h2><h3 id="text_numberscollections">text, numbers&hellip;collections?</h3><pre><code>
+&gt; fruits = ["kiwi", "strawberry", "plum"]
+=&gt; ["kiwi", "strawberry", "plum"]
+&gt; states = {"CA" =&gt; "California", "DE" =&gt; "Delaware"}
+=&gt; {"DE"=&gt;"Delaware", "CA"=&gt;"California"}
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-13" class="content">
+              <h2 id="operators">Operators</h2><h3 id="doing_stuff_with_variables">doing stuff with variables</h3><pre><code>
+&gt; my_variable + 2
+=&gt; 7
+&gt; my_variable * 3
+=&gt; 15
+&gt; my_fruits = my_fruits + ["lychee"]
+=&gt; ["kiwi", "strawberry", "plum", "lychee"]
+&gt; my_fruits = my_fruits - ["lychee"]
+=&gt; ["kiwi", "strawberry", "plum"]
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-14" class="content">
+              <h2 id="loops">Loops</h2><h3 id="doing_the_same_thing_a_bunch_of_times">doing the same thing a bunch of times</h3><table><tr>
+<td valign="top" width="37%">
+<code><b>
+&gt; puts fruits[0]<br>
+kiwi<br>
+=&gt; nil<br>
+&gt; puts fruits[1]<br>
+strawberry<br>
+=&gt; nil<br>
+&gt; puts fruits[2]<br>
+plum<br>
+=&gt; nil
+</b></code>
+</td>
+<td width="6%"><font size="150%">VS</font></td>
+<td valign="top" width="57%">
+<code><b>
+&gt; fruits.each do |f|<br>
+*   puts f<br>
+&gt; end<br>
+kiwi<br>
+strawberry<br>
+plum<br>
+=&gt; ["kiwi", "strawberry", "plum"]
+</b></code>
+</td>
+</tr></table>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-15" class="content">
+              <h2 id="conditionals">Conditionals</h2><h3 id="doing_something_only_if_a_condition_is_met">doing something only if a condition is met</h3><pre><code>
+&gt; fruits.each do |f|
+*   puts f if f == "plum"
+&gt; end
+plum
+=&gt; ["kiwi", "strawberry", "plum"]
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-16" class="content">
+              <h2 id="now_weve_done_some_ruby">Now we&rsquo;ve done some Ruby&hellip;</h2><h2 id="lets_do_some_rails">&hellip;let&rsquo;s do some Rails!</h2>
+            </div>
+          </div>
+        
+          <div class=" centereverything">
+            <div id="slide-17" class="content">
+              <img src="img/web-application.png">
+            </div>
+          </div>
+        
+          <div class=" centereverything">
+            <div id="slide-18" class="content">
+              <img src="img/mvc.jpg">
             </div>
           </div>
         
