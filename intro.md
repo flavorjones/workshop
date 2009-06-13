@@ -109,3 +109,18 @@
 ** less code means it's easier to maintain & modify
 * Test Driven Development (TDD)
 * Minimal code - maximal effect
+
+!SLIDE
+# Agile development
+
+* Pair programming
+* Test-driven or Behavior-driven development
+
+!SLIDE
+# Today's project
+<a href="http://www.ultrasaurus.com/rubyworkshop/app_design/"><img src="http://www.ultrasaurus.com/rubyworkshop/app_design/unauthenticated_home-0.jpg" width="946" height="420"/></a>
+
+
+
+
+
