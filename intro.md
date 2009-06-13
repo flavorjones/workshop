@@ -6,13 +6,32 @@
 
 !SLIDE
 
-# Our fabulous sponsors!
+# Fabulous sponsors!
+
+`
+!SLIDE
+# Space, food & drink
 * Orange Labs 
 * Vodpod
 * SlideShare
+
+!SLIDE
+# Projectors
+* Orange Labs (3)
+* SlideShare (2)
+* ShareGrove (1)
+* Laszlo Systems (1)
+* Pivitol Labs (1)
+* SFWow (1)
+
+!SLIDE
+# Books and software 
 * Addison-Wesley
 * Manning
 * Balsamiq
+
+!SLIDE
+# Orgnaizational support
 * SF Ruby Meetup
 * DevChix
 * RailsBridge

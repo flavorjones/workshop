@@ -124,6 +124,14 @@ ul {
   text-align: center;
 }
 
+.slide-hilite {
+  text-color: red;
+}
+
+.big-text {
+  font-size: 150%;
+}
+
 li {
     padding: 8;
 }
@@ -4779,7 +4787,7 @@ jQuery.extend( jQuery.easing,
     var index = getIndex();
     var offset = (index || 0) * dimensions.width;
     
-    $('#track').animate({ marginLeft: '-' + offset + 'px' }, 0);
+    $('#track').animate({ marginLeft: '-' + offset + 'px' }, 200);
   }
   
   var verticalAlign = function() {
@@ -4810,7 +4818,7 @@ jQuery.extend( jQuery.easing,
   
   var move = function(event) {
     var DIRECTIONS = {
-      1: 1,   // LEFT MOUSE BTN
+      1: -1,  // LEFT MOUSE BTN
       3: 1,   // RIGHT MOUSE BTN
       37: -1, // ARROW LEFT
       39: 1,  // ARROW RIGHT
@@ -4845,54 +4853,79 @@ jQuery.extend( jQuery.easing,
         
           <div class=" centereverything">
             <div id="slide-0" class="content">
-              <img src="img/railsbridge_logo.png"><h1 id="ruby_on_rails_workshop">Ruby on Rails Workshop</h1><h3 id="june_13th_2009">June 13th, 2009</h3>
+              <p><img src="img/railsbridge_logo.png"></p><h1>Ruby on Rails Workshop</h1><h3>June 13th, 2009</h3>
             </div>
           </div>
         
           <div class="">
             <div id="slide-1" class="content">
-              <h1 id="our_fabulous_sponsors">Our fabulous sponsors!</h1><ul>
+              <h1>Fabulous sponsors!</h1><p>`</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-2" class="content">
+              <h1>Space, food &amp; drink</h1><ul>
 <li>Orange Labs</li>
-
 <li>Vodpod</li>
-
 <li>SlideShare</li>
-
+</ul>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-3" class="content">
+              <h1>Projectors</h1><ul>
+<li>Orange Labs (3)</li>
+<li>SlideShare (2)</li>
+<li>ShareGrove (1)</li>
+<li>Laszlo Systems (1)</li>
+<li>Pivitol Labs (1)</li>
+<li>SFWow (1)</li>
+</ul>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-4" class="content">
+              <h1>Books and software</h1><ul>
 <li>Addison-Wesley</li>
-
 <li>Manning</li>
-
 <li>Balsamiq</li>
-
+</ul>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-5" class="content">
+              <h1>Orgnaizational support</h1><ul>
 <li>SF Ruby Meetup</li>
-
 <li>DevChix</li>
-
 <li>RailsBridge</li>
 </ul>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-2" class="content">
-              <h1 id="why_are_we_here">Why are we here?</h1>
+            <div id="slide-6" class="content">
+              <h1>Why are we here?</h1>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-3" class="content">
-              <h1 id="what_is_ruby_on_rails">What is Ruby on Rails?</h1>
+            <div id="slide-7" class="content">
+              <h1>What is Ruby on Rails?</h1>
             </div>
           </div>
         
           <div class=" centereverything">
-            <div id="slide-4" class="content">
-              <img src="img/web-application.png">
+            <div id="slide-8" class="content">
+              <p><img src="img/web-application.png"></p>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-5" class="content">
+            <div id="slide-9" class="content">
               <table width="100%">
 <tr>
 <td align="center">
@@ -4907,12 +4940,12 @@ jQuery.extend( jQuery.easing,
 <td>&nbsp;</td>
 </tr>
 </table>
-<h1 id="id1">&nbsp;</h1><h1 id="id2">&nbsp;</h1>
+<h1>&nbsp;</h1><h1>&nbsp;</h1>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-6" class="content">
+            <div id="slide-10" class="content">
               <table width="100%">
 <tr>
 <td align="center">
@@ -4931,38 +4964,32 @@ jQuery.extend( jQuery.easing,
 </td>
 </tr>
 </table>
-<h1 id="id3">&nbsp;</h1><h1 id="id4">&nbsp;</h1>
+<h1>&nbsp;</h1><h1>&nbsp;</h1>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-7" class="content">
-              <h2 id="ruby_programming_language">Ruby: programming language</h2><ul>
+            <div id="slide-11" class="content">
+              <h2>Ruby: programming language</h2><ul>
 <li>Object oriented</li>
-
 <li>General purpose</li>
 </ul>
-<h2 id="rails_web_application_framework">Rails: web application framework</h2><ul>
+<h2>Rails: web application framework</h2><ul>
 <li>Database agnostic</li>
-
 <li>Open source</li>
-
 <li>History: 37signals</li>
 </ul>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-8" class="content">
-              <h1 id="the_rails_philosophy">The Rails Philosophy</h1><ul>
+            <div id="slide-12" class="content">
+              <h1>The Rails Philosophy</h1><ul>
 <li>Opinionated</li>
-
 <li>Convention over configuration</li>
-
-<li>DRY (Don&rsquo;t Repeat Yourself) ** less code means it&rsquo;s easier to maintain &amp; modify</li>
-
+<li>DRY (Don't Repeat Yourself)
+** less code means it's easier to maintain &amp; modify</li>
 <li>Test Driven Development (TDD)</li>
-
 <li>Minimal code - maximal effect</li>
 </ul>
             </div>
