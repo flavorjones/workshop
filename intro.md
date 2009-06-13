@@ -36,6 +36,7 @@
 * Addison-Wesley
 * Manning
 * Balsamiq
+* RubyMine
 
 !SLIDE
 
@@ -123,6 +124,7 @@
 
 !SLIDE 
 # announcements
+# giveaways
 
 !SLIDE 
 # schedule
