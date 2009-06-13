@@ -8,17 +8,6 @@
 <img src="http://www.ultrasaurus.com/rubyworkshop/app_design/authenticated_home.jpg" width="934" height="436"/>
 
 !SLIDE
-# Tools we'll be working with
-* **rails**
-* **rake**: like make for ruby, easy way to run tasks
-* **git**: for source code control
-* **database**: we'll use sqlite, but could be any relational database 
-* **editor**
-* hosting services
-  * **github**: source code repository 
-  * **heroku**: free rails hosting
-
-!SLIDE
 # let's build a web app
 
 !SLIDE

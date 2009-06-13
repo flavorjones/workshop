@@ -8,16 +8,37 @@
 
 !SLIDE
 
-# Our fabulous sponsors!
+# Open source workshop
+* Community project
+  * Many individuals 
+  * SF Ruby Meetup
+  * DevChix
+  * RailsBridge
+* Open materials
+  * Workshop planning: devchix wiki
+  * Slides: github, slidedown
+
+!SLIDE
+# Space, food & drink
 * Orange Labs 
 * Vodpod
 * SlideShare
+
+!SLIDE
+# Projectors
+* Orange Labs (3)
+* SlideShare (2)
+* ShareGrove (1)
+* Laszlo Systems (1)
+* Pivitol Labs (1)
+* SFWow (1)
+
+!SLIDE
+# Books and software 
 * Addison-Wesley
 * Manning
 * Balsamiq
-* SF Ruby Meetup
-* DevChix
-* RailsBridge
+* RubyMine
 
 !SLIDE
 
@@ -92,3 +113,62 @@
 ** less code means it's easier to maintain & modify
 * Test Driven Development (TDD)
 * Minimal code - maximal effect
+
+!SLIDE
+# Agile development
+
+* Pair programming
+* Test-driven or Behavior-driven development
+
+!SLIDE
+# Goal
+* By the end of the day, you will have built and deployed a web application live n the internet
+
+!SLIDE
+# Tools we'll be working with
+* **rails**
+* **rake**: like make for ruby, easy way to run tasks
+* **git**: for source code control
+* **database**: we'll use sqlite, but could be any relational database 
+* **editor**
+* hosting services
+  * **github**: source code repository 
+  * **heroku**: free rails hosting
+
+!SLIDE
+# Today's project
+<a href="http://www.ultrasaurus.com/rubyworkshop/app_design/"><img src="http://www.ultrasaurus.com/rubyworkshop/app_design/unauthenticated_home-0.jpg" width="946" height="420"/></a>
+
+!SLIDE 
+# announcements
+# giveaways
+
+!SLIDE 
+# schedule
+* 9:30 registration coffee/tea 
+* 10am-10:20 large group presentation
+* 10:30-11:20 session 1
+* 11:30-12:20 session 2
+* 12:30-1:30 lunch
+* 1:30-2:20 session 3
+* 2:30-3:20 session 4
+* 3:30-4pm session 5  (review what we've learned final questions)
+* 4:10 - volunteers meet for quick mtg, you can keep coding if you want
+* 4:30 - clean up
+* 5pm After party at Xebec
+
+!SLIDE 
+# Workshop Groups
+* Novice 
+  * Purple, Golden Gate, Jen Mei
+  * Yellow, Kitchen, Bosco
+  * Bight Green, Siphy-Harbor, Sarah Mei
+* PHP Experience
+  * Dark Green, Viaduc De Millan (Boardroom), Austin
+  * Fushia, Ponte De Normandie, Seth
+* Other programming language experience
+  * Medium Blue, Innvation Garden, Sarah Allen 
+  * Light Blue, Bay Bridge, Mike
+  * Cyan, Tower Bridge, Carmen 
+
+
