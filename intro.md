@@ -3,6 +3,8 @@
 <img src="img/railsbridge_logo.png">
 # Ruby on Rails Workshop
 ### June 13th, 2009
+#####wireless: use orangeft network. pwd orangessf
+#####hashtag: #sfruby
 
 !SLIDE
 
