@@ -144,9 +144,8 @@
 !SLIDE 
 # schedule
 * 9:30 registration coffee/tea 
-* 10am-10:20 large group presentation
-* 10:30-11:20 session 1
-* 11:30-12:20 session 2
+* 10:45am-11:15 large group presentation
+* 11:15-12:30 session 1
 * 12:30-1:30 lunch
 * 1:30-2:20 session 3
 * 2:30-3:20 session 4
@@ -165,8 +164,8 @@
   * Dark Green, Viaduc De Millan (Boardroom), Austin
   * Fushia, Ponte De Normandie, Seth
 * Other programming language experience
-  * Medium Blue, Innvation Garden, Sarah Allen 
-  * Light Blue, Bay Bridge, Mike
-  * Cyan, Tower Bridge, Carmen 
+  * Medium/Light Blue, Innvation Garden, Sarah Allen & Wolf 
+  * Cyan, Tower Bridge, Carmen & Ivan 
 
+  * still installing? Bay Bridge
 

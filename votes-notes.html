@@ -1,0 +1,18 @@
+<h1>Allow voting on a topic</h1>
+
+<h1>Votes</h1>
+
+<ul>
+<li>Each vote will be an object (row in database table)</li>
+<li>When someone votes on a topic, we'll create a new vote object and save it</li>
+<li>Each vote is associated with a specific topic</li>
+</ul>
+
+<h1>Rails associations</h1>
+
+<ul>
+<li>Topic has_many :votes</li>
+<li>Vote belongs_to :topics</li>
+</ul>
+
+<p><img src="http://www.gliffy.com/pubdoc/1735584/L.jpg" alt="has_many" title="" /></p>

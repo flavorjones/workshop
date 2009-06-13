@@ -1,0 +1,86 @@
+<h1>let's add topics</h1>
+
+<ul>
+<li>what exactly do we mean by "add topics?" </li>
+<li>rails "scaffolding" to generate some pages (and code)</li>
+<li>set up database with a new table (migration)</li>
+<li>review what we did</li>
+</ul>
+
+<h1>adding topics</h1>
+
+<ul>
+<li>topic will have a title and a description</li>
+<li>we will enable basic "CRUD" actions
+<ul>
+<li>Create - enter a new topic</li>
+<li>Read - see everyone's topics</li>
+<li>Update - change the topics you entered</li>
+<li>Delete - remove your topics from the system </li>
+</ul></li>
+</ul>
+
+<p>.</p>
+
+<pre><code>ruby script/generate scaffold topic title:string description:text
+rake db:migrate
+</code></pre>
+
+<p>.</p>
+
+<pre><code>http://localhost:3000/topics
+</code></pre>
+
+<h1>What did we just do?</h1>
+
+<ul>
+<li>a model
+<ul>
+<li>create    app/models/topic.rb</li>
+<li>create    db/migrate/20090611073227<em>create</em>topics.rb</li>
+</ul></li>
+<li>4 views
+<ul>
+<li>create  app/views/topics/index.html.erb</li>
+<li>create  app/views/topics/show.html.erb</li>
+<li>create  app/views/topics/new.html.erb</li>
+<li>create  app/views/topics/edit.html.erb</li>
+</ul></li>
+<li>a controller
+<ul>
+<li>create  app/controllers/topics_controller.rb</li>
+<li>route  map.resources :topics</li>
+</ul></li>
+</ul>
+
+<p><img src="http://www.gliffy.com/pubdoc/1734447/L.jpg" alt="Architecture" title="" /></p>
+
+<h1>Model-View-Controller</h1>
+
+<ul>
+<li><strong>Model</strong>
+<ul>
+<li>represents what is in the database </li>
+<li>ActiveRecord</li>
+</ul></li>
+<li><strong>View</strong>
+<ul>
+<li>the model rendered as HTML </li>
+<li>ActionView, erb</li>
+</ul></li>
+<li><strong>Controller</strong>
+<ul>
+<li>receives HTTP actions (GET, POST, PUT, DELETE)</li>
+<li>decides what to do, typically rendering a view </li>
+<li>ActionController</li>
+</ul></li>
+</ul>
+
+<p>.</p>
+
+<pre><code>git add -A
+git commit -m 'topic crud'
+git push heroku master
+heroku rake db:migrate
+git push
+</code></pre>
