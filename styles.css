@@ -10,6 +10,9 @@
   font-size: 150%;
 }
 
+.table-code {
+  font-family: Bitstream Vera Sans Mono;
+}
 li {
     padding: 8;
 }
