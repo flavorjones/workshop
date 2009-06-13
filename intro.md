@@ -119,6 +119,21 @@
 * Test-driven or Behavior-driven development
 
 !SLIDE
+# Goal
+* By the end of the day, you will have built and deployed a web application live n the internet
+
+!SLIDE
+# Tools we'll be working with
+* **rails**
+* **rake**: like make for ruby, easy way to run tasks
+* **git**: for source code control
+* **database**: we'll use sqlite, but could be any relational database 
+* **editor**
+* hosting services
+  * **github**: source code repository 
+  * **heroku**: free rails hosting
+
+!SLIDE
 # Today's project
 <a href="http://www.ultrasaurus.com/rubyworkshop/app_design/"><img src="http://www.ultrasaurus.com/rubyworkshop/app_design/unauthenticated_home-0.jpg" width="946" height="420"/></a>
 
@@ -136,10 +151,22 @@
 * 1:30-2:20 session 3
 * 2:30-3:20 session 4
 * 3:30-4pm session 5  (review what we've learned final questions)
+* 4:10 - volunteers meet for quick mtg, you can keep coding if you want
+* 4:30 - clean up
 * 5pm After party at Xebec
 
-
-
-
+!SLIDE 
+# Workshop Groups
+* Novice 
+  * Purple, Golden Gate, Jen Mei
+  * Yellow, Kitchen, Bosco
+  * Bight Green, Siphy-Harbor, Sarah Mei
+* PHP Experience
+  * Dark Green, Viaduc De Millan (Boardroom), Austin
+  * Fushia, Ponte De Normandie, Seth
+* Other programming language experience
+  * Medium Blue, Innvation Garden, Sarah Allen 
+  * Light Blue, Bay Bridge, Mike
+  * Cyan, Tower Bridge, Carmen 
 
 
