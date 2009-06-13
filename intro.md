@@ -6,9 +6,16 @@
 
 !SLIDE
 
-# Fabulous sponsors!
+# Open source workshop
+* Community project
+  * Many individuals 
+  * SF Ruby Meetup
+  * DevChix
+  * RailsBridge
+* Open materials
+  * Workshop planning: devchix wiki
+  * Slides: github, slidedown
 
-`
 !SLIDE
 # Space, food & drink
 * Orange Labs 
@@ -29,12 +36,6 @@
 * Addison-Wesley
 * Manning
 * Balsamiq
-
-!SLIDE
-# Orgnaizational support
-* SF Ruby Meetup
-* DevChix
-* RailsBridge
 
 !SLIDE
 
@@ -119,6 +120,22 @@
 !SLIDE
 # Today's project
 <a href="http://www.ultrasaurus.com/rubyworkshop/app_design/"><img src="http://www.ultrasaurus.com/rubyworkshop/app_design/unauthenticated_home-0.jpg" width="946" height="420"/></a>
+
+!SLIDE 
+# announcements
+
+!SLIDE 
+# schedule
+* 9:30 registration coffee/tea 
+* 10am-10:20 large group presentation
+* 10:30-11:20 session 1
+* 11:30-12:20 session 2
+* 12:30-1:30 lunch
+* 1:30-2:20 session 3
+* 2:30-3:20 session 4
+* 3:30-4pm session 5  (review what we've learned final questions)
+* 5pm After party at Xebec
+
 
 
 
