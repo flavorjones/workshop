@@ -1,7 +1,10 @@
 # Ruby on Rails workshop
 * [Overview](intro.html)
 
-## Sessions
+## Novice session
+* [Introduction to Programming](programming_intro.html)_
+
+## Full Sessions
 * [Create Webapp](create_webapp.html)
 * [Add Topics](add_topics.html)
 * [Votes](votes.html)
