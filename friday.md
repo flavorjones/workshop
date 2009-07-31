@@ -33,5 +33,5 @@ and the SF Ruby meetup!
 
 !SLIDE
 
-# http://wiki.devchix.com/index.php?title=Workshop_Installation_Notes
-# We have large files on DVDs and thumb drives
+Bookmark:
+### http://wiki.devchix.com/index.php?title=Workshop_Installation_Notes
