@@ -2,8 +2,8 @@
 
 <img src="img/railsbridge_logo.png">
 # Ruby on Rails Workshop
-### June 13th, 2009
-#####wireless: use orangeft network. pwd orangessf
+### August 1st, 2009
+#####wireless:
 #####hashtag: #sfruby
 
 !SLIDE
@@ -20,25 +20,16 @@
 
 !SLIDE
 # Space, food & drink
-* Orange Labs 
-* Vodpod
-* SlideShare
+* Pivotal Labs 
+* Engine Yard
+* Heroku
+* Triptych Restaurant
+* Slideshare
 
 !SLIDE
-# Projectors
-* Orange Labs (3)
-* SlideShare (2)
-* ShareGrove (1)
-* Laszlo Systems (1)
-* Pivitol Labs (1)
-* SFWow (1)
-
-!SLIDE
-# Books and software 
-* Addison-Wesley
-* Manning
+# Giveaways
+* PeepCode
 * Balsamiq
-* RubyMine
 
 !SLIDE
 
