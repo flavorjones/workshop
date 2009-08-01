@@ -4854,124 +4854,49 @@ jQuery.extend( jQuery.easing,
     <div id="slides">
       <div id="track">
         
-          <div class="">
+          <div class=" centereverything">
             <div id="slide-0" class="content">
-              <h1>let's add topics</h1><ul>
-<li>what exactly do we mean by "add topics?"</li>
-<li>rails "scaffolding" to generate some pages (and code)</li>
-<li>set up database with a new table (migration)</li>
-<li>review what we did</li>
-</ul>
+              <p><img src="img/railsbridge_logo.png"></p><h1>Ruby on Rails Installfest</h1><h3>August 31st, 2009</h3><h5>wireless:</h5><h5>hashtag: #sfruby</h5>
             </div>
           </div>
         
           <div class="">
             <div id="slide-1" class="content">
-              <h1>adding topics</h1><ul>
-<li>topic will have a title and a description</li>
-<li>we will enable basic "CRUD" actions
-
-<ul>
-<li>Create - enter a new topic</li>
-<li>Read - see everyone's topics</li>
-<li>Update - change the topics you entered</li>
-<li>Delete - remove your topics from the system</li>
-</ul>
-</li>
+              <h1>Schedule for tonight</h1><ul>
+<li>6:00 - Welcome</li>
+<li>6:15 - Food arrives</li>
+<li>7:00 - Install!</li>
 </ul>
             </div>
           </div>
         
           <div class="">
             <div id="slide-2" class="content">
-              <p>.</p><pre><code>ruby script/generate scaffold topic title:string description:text
-rake db:migrate
-</code></pre>
+              <h1>Schedule for tomorrow</h1><ul>
+<li>9:30 - Arrive, continental breakfast</li>
+<li>10:00 - 4:00 - Workshop</li>
+<li>5:00 - ? - Afterparty @ Jillian's</li>
+</ul>
             </div>
           </div>
         
           <div class="">
             <div id="slide-3" class="content">
-              <p>.</p><pre><code>http://localhost:3000/topics
-</code></pre>
+              <h1>Our Amazing Sponsors</h1><ul>
+<li>Pivotal Labs</li>
+<li>Engine Yard</li>
+<li>Heroku</li>
+<li>Triptych Restaurant</li>
+<li>PeepCode</li>
+<li>DevChix and RailsBridge
+and the SF Ruby meetup!</li>
+</ul>
             </div>
           </div>
         
-          <div class=" ">
+          <div class="">
             <div id="slide-4" class="content">
-              <h1>What did we just do?</h1><ul>
-<li>a model
-
-<ul>
-<li>create    app/models/topic.rb</li>
-<li>create    db/migrate/20090611073227_create_topics.rb</li>
-</ul>
-</li>
-<li>4 views
-
-<ul>
-<li>create  app/views/topics/index.html.erb</li>
-<li>create  app/views/topics/show.html.erb</li>
-<li>create  app/views/topics/new.html.erb</li>
-<li>create  app/views/topics/edit.html.erb</li>
-</ul>
-</li>
-<li>a controller
-
-<ul>
-<li>create  app/controllers/topics_controller.rb</li>
-<li>route  map.resources :topics</li>
-</ul>
-</li>
-</ul>
-            </div>
-          </div>
-        
-          <div class="">
-            <div id="slide-5" class="content">
-              <p><img src="http://www.gliffy.com/pubdoc/1734447/L.jpg" alt="Architecture"></p>
-            </div>
-          </div>
-        
-          <div class="">
-            <div id="slide-6" class="content">
-              <h1>Model-View-Controller</h1><ul>
-<li>
-<strong>Model</strong>
-
-<ul>
-<li>represents what is in the database</li>
-<li>ActiveRecord</li>
-</ul>
-</li>
-<li>
-<strong>View</strong>
-
-<ul>
-<li>the model rendered as HTML</li>
-<li>ActionView, erb</li>
-</ul>
-</li>
-<li>
-<strong>Controller</strong>
-
-<ul>
-<li>receives HTTP actions (GET, POST, PUT, DELETE)</li>
-<li>decides what to do, typically rendering a view</li>
-<li>ActionController</li>
-</ul>
-</li>
-</ul>
-            </div>
-          </div>
-        
-          <div class=" code">
-            <div id="slide-7" class="content">
-              <p>.</p><pre><code>git add -A
-git commit -m 'topic crud'
-git push heroku master
-heroku rake db:migrate
-</code></pre>
+              <p>Bookmark:</p><h3>http://wiki.devchix.com/index.php?title=Workshop_Installation_Notes</h3><p>Note:</p><h3>Rails 2.3.2 is recommended</h3>
             </div>
           </div>
         

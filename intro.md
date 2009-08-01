@@ -2,8 +2,8 @@
 
 <img src="img/railsbridge_logo.png">
 # Ruby on Rails Workshop
-### June 13th, 2009
-#####wireless: use orangeft network. pwd orangessf
+### August 1st, 2009
+#####wireless: Pivotal Guest - no password
 #####hashtag: #sfruby
 
 !SLIDE
@@ -11,34 +11,25 @@
 # Open source workshop
 * Community project
   * Many individuals 
+  * RailsBridge
   * SF Ruby Meetup
   * DevChix
-  * RailsBridge
 * Open materials
   * Workshop planning: devchix wiki
   * Slides: github, slidedown
 
 !SLIDE
 # Space, food & drink
-* Orange Labs 
-* Vodpod
-* SlideShare
+* Pivotal Labs 
+* Engine Yard
+* Heroku
+* Triptych Restaurant
+* Slideshare
 
 !SLIDE
-# Projectors
-* Orange Labs (3)
-* SlideShare (2)
-* ShareGrove (1)
-* Laszlo Systems (1)
-* Pivitol Labs (1)
-* SFWow (1)
-
-!SLIDE
-# Books and software 
-* Addison-Wesley
-* Manning
+# Giveaways
+* PeepCode
 * Balsamiq
-* RubyMine
 
 !SLIDE
 
@@ -117,12 +108,15 @@
 !SLIDE
 # Agile development
 
+<img src="http://img.skitch.com/20090801-jafkfs4eeawy19k9f3mjknb4ht.jpg"/>
+
 * Pair programming
 * Test-driven or Behavior-driven development
 
+
 !SLIDE
 # Goal
-* By the end of the day, you will have built and deployed a web application live n the internet
+* By the end of the day, you will have built and deployed a web application live on the internet
 
 !SLIDE
 # Tools we'll be working with
@@ -131,9 +125,7 @@
 * **git**: for source code control
 * **database**: we'll use sqlite, but could be any relational database 
 * **editor**
-* hosting services
-  * **github**: source code repository 
-  * **heroku**: free rails hosting
+* **heroku**: free rails hosting
 
 !SLIDE
 # Today's project
@@ -144,30 +136,18 @@
 # giveaways
 
 !SLIDE 
-# schedule
-* 9:30 registration coffee/tea 
-* 10:45am-11:15 large group presentation
-* 11:15-12:30 session 1
+# Schedule
+* 9:30 registration, breakfast
+* 10:00-10:30 large group presentation
+* 10:45-11:30 session 1
+* 11:45-12:30 session 2
 * 12:30-1:30 lunch
 * 1:30-2:20 session 3
 * 2:30-3:20 session 4
-* 3:30-4pm session 5  (review what we've learned final questions)
-* 4:10 - volunteers meet for quick mtg, you can keep coding if you want
+* 3:30-4:00 session 5  (review what we've learned, final questions)
 * 4:30 - clean up
-* 5pm After party at Xebec
+* 5pm After party at Jillian's
 
 !SLIDE 
 # Workshop Groups
-* Novice 
-  * Purple, Golden Gate, Jen Mei
-  * Yellow, Kitchen, Bosco
-  * Bight Green, Siphy-Harbor, Sarah Mei
-* PHP Experience
-  * Dark Green, Viaduc De Millan (Boardroom), Austin
-  * Fushia, Ponte De Normandie, Seth
-* Other programming language experience
-  * Medium/Light Blue, Innvation Garden, Sarah Allen & Wolf 
-  * Cyan, Tower Bridge, Carmen & Ivan 
-
-  * still installing? Bay Bridge
 
