@@ -115,8 +115,15 @@
     heroku create
     git push heroku master
 
+!SLIDE 
+
+# Collaboration
+* Heroku: you can add a collaborator
+* Githb: more focused on social coding UI & tools
+
 !SLIDE
-#push code to github
+
+#push code to github (optional)
 * create a repository
 * follow the instructions for existing repository
 
@@ -129,12 +136,7 @@
 </code>
 
 !SLIDE
-#switch computers
-
-!SLIDE code
-.
-
+<code>
     git clone git://github.com/yourgitname/project.git 
     git pull
-TODO: add Heroku collaborator?  how to set up?
-
+</code>

@@ -108,8 +108,11 @@
 !SLIDE
 # Agile development
 
+<img src="http://img.skitch.com/20090801-jafkfs4eeawy19k9f3mjknb4ht.jpg"/>
+
 * Pair programming
 * Test-driven or Behavior-driven development
+
 
 !SLIDE
 # Goal
@@ -147,16 +150,4 @@
 
 !SLIDE 
 # Workshop Groups
-* Novice 
-  * Purple, Golden Gate, Jen Mei
-  * Yellow, Kitchen, Bosco
-  * Bight Green, Siphy-Harbor, Sarah Mei
-* PHP Experience
-  * Dark Green, Viaduc De Millan (Boardroom), Austin
-  * Fushia, Ponte De Normandie, Seth
-* Other programming language experience
-  * Medium/Light Blue, Innvation Garden, Sarah Allen & Wolf 
-  * Cyan, Tower Bridge, Carmen & Ivan 
-
-  * still installing? Bay Bridge
 

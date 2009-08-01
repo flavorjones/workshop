@@ -35,3 +35,5 @@ and the SF Ruby meetup!
 
 Bookmark:
 ### http://wiki.devchix.com/index.php?title=Workshop_Installation_Notes
+Note:
+### Rails 2.3.2 is recommended
