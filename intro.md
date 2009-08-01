@@ -133,15 +133,15 @@
 # giveaways
 
 !SLIDE 
-# schedule
-* 9:30 registration coffee/tea 
-* 10:45am-11:15 large group presentation
-* 11:15-12:30 session 1
+# Schedule
+* 9:30 registration, breakfast
+* 10:00-10:30 large group presentation
+* 10:45-11:30 session 1
+* 11:45-12:30 session 2
 * 12:30-1:30 lunch
 * 1:30-2:20 session 3
 * 2:30-3:20 session 4
-* 3:30-4pm session 5  (review what we've learned final questions)
-* 4:10 - volunteers meet for quick mtg, you can keep coding if you want
+* 3:30-4:00 session 5  (review what we've learned, final questions)
 * 4:30 - clean up
 * 5pm After party at Jillian's
 
