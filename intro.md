@@ -3,7 +3,7 @@
 <img src="img/railsbridge_logo.png">
 # Ruby on Rails Workshop
 ### August 1st, 2009
-#####wireless:
+#####wireless: Pivotal Guest - no password
 #####hashtag: #sfruby
 
 !SLIDE
@@ -11,9 +11,9 @@
 # Open source workshop
 * Community project
   * Many individuals 
+  * RailsBridge
   * SF Ruby Meetup
   * DevChix
-  * RailsBridge
 * Open materials
   * Workshop planning: devchix wiki
   * Slides: github, slidedown
@@ -113,7 +113,7 @@
 
 !SLIDE
 # Goal
-* By the end of the day, you will have built and deployed a web application live n the internet
+* By the end of the day, you will have built and deployed a web application live on the internet
 
 !SLIDE
 # Tools we'll be working with
@@ -122,9 +122,7 @@
 * **git**: for source code control
 * **database**: we'll use sqlite, but could be any relational database 
 * **editor**
-* hosting services
-  * **github**: source code repository 
-  * **heroku**: free rails hosting
+* **heroku**: free rails hosting
 
 !SLIDE
 # Today's project
@@ -145,7 +143,7 @@
 * 3:30-4pm session 5  (review what we've learned final questions)
 * 4:10 - volunteers meet for quick mtg, you can keep coding if you want
 * 4:30 - clean up
-* 5pm After party at Xebec
+* 5pm After party at Jillian's
 
 !SLIDE 
 # Workshop Groups
