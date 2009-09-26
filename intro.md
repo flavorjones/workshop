@@ -2,8 +2,8 @@
 
 <img src="img/railsbridge_logo.png">
 # Ruby on Rails Workshop
-### August 1st, 2009
-#####wireless: Pivotal Guest - no password
+### September 26th, 2009
+#####wireless: "sfCUBE - n1" - no password
 #####hashtag: #sfruby
 
 !SLIDE
@@ -19,17 +19,10 @@
   * Slides: github, slidedown
 
 !SLIDE
-# Space, food & drink
-* Pivotal Labs 
-* Engine Yard
+# Space
+* sfCUBE
+# Food, drink, and everything else!
 * Heroku
-* Triptych Restaurant
-* Slideshare
-
-!SLIDE
-# Giveaways
-* PeepCode
-* Balsamiq
 
 !SLIDE
 
@@ -146,8 +139,9 @@
 * 2:30-3:20 session 4
 * 3:30-4:00 large group - wrap up
 * 4:30 - clean up
-* 5pm After party at Jillian's
+* 5pm After party at the Dogpatch Saloon
 
 !SLIDE 
+
 # Workshop Groups
 
