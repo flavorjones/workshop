@@ -1,0 +1,34 @@
+<mockup version="1.0" skin="sketch" measuredW="1006" measuredH="674">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::List" x="18" y="13" w="508" h="223" measuredW="100" measuredH="126" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Welcome%20Chandra%21%0A%20%0A%5BLocalization%20in%20Rails%202.2%20and%20above%5D%0920%20votes%09%5B+1%5D%0A%5BRails%20Fixtures%5D%09%09%09%09%0910%20votes%09%5B+1%5D%0A%5BSimple%20web%20apps%20with%20Sinatra%5D%09%098%20votes%09%5B-1%5D%0A%5BRegular%20expressions%5D%09%09%09%095%20votes%09%5B+1%5D%20%0A%5BAuthentication%5D%09%09%09%09%093%20votes%09%5B+1%5D%0A%5BTest%20Topic%5D%09%09%09%09%09%20%20%20%20%20%20%200%20votes%20%20%20%20%20%5BEdit%5D%20%5BDelete%5D%0A%20%0A%5BNew%20topic%5D</text>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::List" x="526" y="13" w="470" h="223" measuredW="100" measuredH="126" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5BLogin%5D%20%7C%20%5BRegister%5D%0A%20%0A%5BLocalization%20in%20Rails%202.2%20and%20above%5D%0920%20votes%09%0A%5BRails%20Fixtures%5D%09%09%09%09%0910%20votes%09%0A%5BSimple%20web%20apps%20with%20Sinatra%5D%09%098%20votes%09%0A%5BRegular%20expressions%5D%09%09%09%095%20votes%09%0A%5BAuthentication%5D%09%09%09%09%093%20votes%0A%20</text>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::List" x="18" y="242" w="470" h="199" measuredW="100" measuredH="126" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Title%3A%20Rails%20Fixtures%0AIntroduce%20how%20fixtures%20are%20commonly%20used%2C%20including%20%22foxy%20fixtures.%22%20%20Discuss%20best%20practices%20and%20review%20some%20tricky%20use%20cases.%20%20%0A%20%0A10%20votes%0A%20%0AYou%20have%20not%20voted%20on%20this%20talk.%0A%5BI%20would%20attend%20a%20meetup%20on%20this%20topic%5D%20%7C%20%5BI%20could%20give%20this%20talk%5D</text>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::List" x="18" y="465" w="470" h="199" measuredW="100" measuredH="126" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Title%3A%20Rails%20Fixtures%0AIntroduce%20how%20fixtures%20are%20commonly%20used%2C%20including%20%22foxy%20fixtures.%22%20%20Discuss%20best%20practices%20and%20review%20some%20tricky%20use%20cases.%20%20%0A%20%0A10%20votes%0A%20%0AYou%20have%20voted%20for%20this%20talk.%20%20Have%20you%20changed%20your%20mind%20or%20learned%20about%20this%20elsewhere%3F%0A%5BI%27m%20not%20interested%20anymore%5D%20%7C%20%5BI%20could%20give%20this%20talk%5D</text>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::List" x="526" y="251" w="470" h="199" measuredW="100" measuredH="126" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Title%3A%20Rails%20Fixtures%0AIntroduce%20how%20fixtures%20are%20commonly%20used%2C%20including%20%22foxy%20fixtures.%22%20%20Discuss%20best%20practices%20and%20review%20some%20tricky%20use%20cases.%20%20%0A%20%0A10%20votes%0A%20%0A%5BLogin%5D%20or%20%5Bregister%5D%20to%20vote</text>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
