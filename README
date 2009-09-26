@@ -1,3 +1,5 @@
+
+
 Using slidedown to generate the workshop slides
    sudo gem install slidedown
    slidedown workshop.md > workshop.html
@@ -5,8 +7,19 @@ Using slidedown to generate the workshop slides
 
 use arrow keys to navigate slides
 
+
+If you are creating a new set of slides, you would create "workshop.md" by writing markdown, see other .md files in the root directory for example
+
+If you want to edit slides, change one of the .md files and regenerate the .html and check both in
+
 to generate notes (html without the !SLIDES notation)
    ./makenotes workshop.md workshop-notes.html
 
-not sure that's really print-able, but considering it for handouts
+not really print-able, but a good starting point for handouts (which I then copy into a pretty editor, format and print), someday would be nice to CSS/PDF or something to avoid the manual step
+
+
+
+
+
+
 
