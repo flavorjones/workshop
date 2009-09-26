@@ -19,14 +19,25 @@
   * Slides: github, slidedown
 
 !SLIDE
-# Space
-* sfCUBE
-# Food, drink, and everything else!
-* Heroku
+# Space: sfCUBE
+# Everything else: Heroku
+
+!SLIDE
+# Projectors
+* SlideShare
+* Pivotal Labs
+* ShareGrove
+* WorkingPoint
+* Sean Dick
+* Jennifer Abe
 
 !SLIDE
 
 # Why are we here?
+
+!SLIDE
+
+# Why are you here?
 
 !SLIDE
 
@@ -94,7 +105,7 @@
 * Opinionated
 * Convention over configuration
 * DRY (Don't Repeat Yourself)
-** less code means it's easier to maintain & modify
+    * less code means it's easier to maintain & modify
 * Test Driven Development (TDD)
 * Minimal code - maximal effect
 
@@ -126,7 +137,6 @@
 
 !SLIDE 
 # announcements
-# giveaways
 
 !SLIDE 
 # Schedule
