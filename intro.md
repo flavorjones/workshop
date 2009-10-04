@@ -1,10 +1,15 @@
 !SLIDE centereverything
 
+<table><tr><td>
 <img src="img/railsbridge_logo.png">
+</td><td>
+<img src="img/aloha_on_rails.png" height="250">
+</td></tr></table>
+## Aloha on Rails
 # Ruby on Rails Workshop
-### September 26th, 2009
-#####wireless: "sfCUBE - n1" - no password
-#####hashtag: #sfruby
+### October 3rd, 2009
+#####wireless: rails3 - no pwd
+#####hashtag: #alohaonrails
 
 !SLIDE
 
@@ -12,32 +17,16 @@
 * Community project
   * Many individuals 
   * RailsBridge
-  * SF Ruby Meetup
   * DevChix
 * Open materials
-  * Workshop planning: devchix wiki
+  * Workshop planning: DevChix wiki
   * Slides: github, slidedown
 
 !SLIDE
-# Space: sfCUBE
-# Everything else: Heroku
+<img src="img/ibm.png">
 
 !SLIDE
-# Projectors
-* SlideShare
-* Pivotal Labs
-* ShareGrove
-* WorkingPoint
-* Sean Dick
-* Jennifer Abe
-
-!SLIDE
-
-# Why are we here?
-
-!SLIDE
-
-# Why are you here?
+# Format
 
 !SLIDE
 
@@ -136,22 +125,12 @@
 <a href="http://www.ultrasaurus.com/rubyworkshop/app_design/"><img src="http://www.ultrasaurus.com/rubyworkshop/app_design/unauthenticated_home-0.jpg" width="946" height="420"/></a>
 
 !SLIDE 
-# announcements
-
-!SLIDE 
 # Schedule
-* 9:30 registration, breakfast
-* 10:00-10:30 large group - intro
-* 10:45-11:30 session 1
-* 11:45-12:30 session 2
-* 12:30-1:30 lunch
-* 1:30-2:20 session 3
-* 2:30-3:20 session 4
-* 3:30-4:00 large group - wrap up
-* 4:30 - clean up
-* 5pm After party at the Dogpatch Saloon
-
-!SLIDE 
-
-# Workshop Groups
-
+* 9:00-9:30 sign in, breakfast
+* 9:30-10:00 intro
+* 10:00-10:50 session 1
+* 11:00-11:50 session 2
+* 12:00-1:00 lunch out
+* 1:00-1:50 session 3
+* 2:00-2:50 session 4
+* 3:00-4:00 wrap up; final questions
