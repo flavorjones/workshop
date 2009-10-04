@@ -119,33 +119,6 @@ ul {
 .code .il { color: #009999 } /* Literal.Number.Integer.Long */
     </style>
     
-      <style type="text/css" media="screen">
-        .centereverything {
-  text-align: center;
-}
-
-.slide-hilite {
-  text-color: red;
-}
-
-.big-text {
-  font-size: 150%;
-}
-
-.table-code {
-  font-family: Bitstream Vera Sans Mono;
-}
-li {
-    padding: 8;
-}
-
-td {
-    font-size: 32px; 
-    padding: 8;
-}
-
-      </style>
-    
     <script type="text/javascript">
       /*!
  * jQuery JavaScript Library v1.3.2
@@ -4821,23 +4794,31 @@ jQuery.extend( jQuery.easing,
   
   var move = function(event) {
     var DIRECTIONS = {
-      1: -1,  // LEFT MOUSE BTN
-      3: 1,   // RIGHT MOUSE BTN
       37: -1, // ARROW LEFT
       39: 1,  // ARROW RIGHT
       32: 1,  // SPACE BAR
-      13: 1   // RETURN
+      13: 1,   // RETURN
+      left: -1,
+      right: 1
     }
     
-    if (dir = DIRECTIONS[event.which]) {
+    if (dir = DIRECTIONS[event.which || event]) {
       setIndex(getIndex() + dir);
+    }
+  }
+  
+  function clickMove(e) {
+    if (e.pageX < ($(window).width() / 2)) {
+      move('left');
+    } else {
+      move('right');
     }
   }
   
   $(window).bind('resize', function() { adjustSlides(); });
   $(document).bind('keydown', move);
-  $(document).bind('click', move);
   $(document).bind('hash.changed', adjustSlides);
+  $(document).bind('click', clickMove);
   $(document).ready(function() {
     setIndex(getIndex() || 0);
     $(this).trigger('hash.changed');
@@ -4846,7 +4827,6 @@ jQuery.extend( jQuery.easing,
     }
   });
 })(jQuery);
-
     </script>
     
   </head>
@@ -4856,7 +4836,7 @@ jQuery.extend( jQuery.easing,
         
           <div class="">
             <div id="slide-0" class="content">
-              <h1>Build and deploy a web application</h1><ul>
+              <h3>Build and deploy a web application</h3><ul>
 <li>Add topics</li>
 <li>Vote on a topic</li>
 <li>Register and login</li>
@@ -4872,13 +4852,14 @@ jQuery.extend( jQuery.easing,
         
           <div class="">
             <div id="slide-2" class="content">
-              <h1>let's build a web app</h1>
+              <h1>Let's build a web app</h1>
             </div>
           </div>
         
           <div class="">
             <div id="slide-3" class="content">
-              <p><code></code></p><pre><code> rails suggestorama 
+              <p><code></code></p><pre><code>rails suggestorama 
+  -m http://gist.github.com/194076.txt 
 </code></pre><p></p>
             </div>
           </div>
@@ -4987,7 +4968,7 @@ http://localhost:3000
         
           <div class=" code">
             <div id="slide-9" class="content">
-              <p>.<br></p><pre><code>git init
+              <p>&nbsp;<br></p><pre><code>git init
 git add .
 git commit -m 'basic web application'
 </code></pre>
@@ -4996,45 +4977,9 @@ git commit -m 'basic web application'
         
           <div class=" code">
             <div id="slide-10" class="content">
-              <p>.</p><pre><code>heroku create
+              <p>&nbsp;</p><pre><code>heroku create
 git push heroku master
 </code></pre>
-            </div>
-          </div>
-        
-          <div class=" ">
-            <div id="slide-11" class="content">
-              <h1>Collaboration</h1><ul>
-<li>Heroku: you can add a collaborator</li>
-<li>Githb: more focused on social coding UI &amp; tools</li>
-</ul>
-            </div>
-          </div>
-        
-          <div class="">
-            <div id="slide-12" class="content">
-              <h1>push code to github (optional)</h1><ul>
-<li>create a repository</li>
-<li>follow the instructions for existing repository</li>
-</ul>
-            </div>
-          </div>
-        
-          <div class="">
-            <div id="slide-13" class="content">
-              <p><code></code></p><pre><code>git config --global user.name "Your Name"
-git config --global user.email you@whatever.com
-git remote add origin git@github.com:yourgithubname/project.git
-git push origin master
-</code></pre><p></p>
-            </div>
-          </div>
-        
-          <div class="">
-            <div id="slide-14" class="content">
-              <p><code></code></p><pre><code>git clone git://github.com/yourgitname/project.git 
-git pull
-</code></pre><p></p>
             </div>
           </div>
         

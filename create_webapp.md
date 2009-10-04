@@ -1,5 +1,5 @@
 !SLIDE
-# Build and deploy a web application
+### Build and deploy a web application
 * Add topics
 * Vote on a topic
 * Register and login
@@ -8,12 +8,13 @@
 <img src="http://www.ultrasaurus.com/rubyworkshop/app_design/authenticated_home.jpg" width="934" height="436"/>
 
 !SLIDE
-# let's build a web app
+# Let's build a web app
 
 !SLIDE
 
 <code>
-     rails suggestorama 
+    rails suggestorama 
+      -m http://gist.github.com/194076.txt 
 </code>
 
 !SLIDE
@@ -103,40 +104,12 @@
 * then deploy to heroku
 
 !SLIDE code
-.  
-
+&nbsp;  
     git init
     git add .
     git commit -m 'basic web application'
 
 !SLIDE code
-.
-
+&nbsp;
     heroku create
     git push heroku master
-
-!SLIDE 
-
-# Collaboration
-* Heroku: you can add a collaborator
-* Githb: more focused on social coding UI & tools
-
-!SLIDE
-
-#push code to github (optional)
-* create a repository
-* follow the instructions for existing repository
-
-!SLIDE
-<code>
-    git config --global user.name "Your Name"
-    git config --global user.email you@whatever.com
-    git remote add origin git@github.com:yourgithubname/project.git
-    git push origin master
-</code>
-
-!SLIDE
-<code>
-    git clone git://github.com/yourgitname/project.git 
-    git pull
-</code>
