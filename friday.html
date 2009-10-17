@@ -119,33 +119,6 @@ ul {
 .code .il { color: #009999 } /* Literal.Number.Integer.Long */
     </style>
     
-      <style type="text/css" media="screen">
-        .centereverything {
-  text-align: center;
-}
-
-.slide-hilite {
-  text-color: red;
-}
-
-.big-text {
-  font-size: 150%;
-}
-
-.table-code {
-  font-family: Bitstream Vera Sans Mono;
-}
-li {
-    padding: 8;
-}
-
-td {
-    font-size: 32px; 
-    padding: 8;
-}
-
-      </style>
-    
     <script type="text/javascript">
       /*!
  * jQuery JavaScript Library v1.3.2
@@ -4821,23 +4794,31 @@ jQuery.extend( jQuery.easing,
   
   var move = function(event) {
     var DIRECTIONS = {
-      1: -1,  // LEFT MOUSE BTN
-      3: 1,   // RIGHT MOUSE BTN
       37: -1, // ARROW LEFT
       39: 1,  // ARROW RIGHT
       32: 1,  // SPACE BAR
-      13: 1   // RETURN
+      13: 1,   // RETURN
+      left: -1,
+      right: 1
     }
     
-    if (dir = DIRECTIONS[event.which]) {
+    if (dir = DIRECTIONS[event.which || event]) {
       setIndex(getIndex() + dir);
+    }
+  }
+  
+  function clickMove(e) {
+    if (e.pageX < ($(window).width() / 2)) {
+      move('left');
+    } else {
+      move('right');
     }
   }
   
   $(window).bind('resize', function() { adjustSlides(); });
   $(document).bind('keydown', move);
-  $(document).bind('click', move);
   $(document).bind('hash.changed', adjustSlides);
+  $(document).bind('click', clickMove);
   $(document).ready(function() {
     setIndex(getIndex() || 0);
     $(this).trigger('hash.changed');
@@ -4846,7 +4827,6 @@ jQuery.extend( jQuery.easing,
     }
   });
 })(jQuery);
-
     </script>
     
   </head>
@@ -4856,47 +4836,22 @@ jQuery.extend( jQuery.easing,
         
           <div class=" centereverything">
             <div id="slide-0" class="content">
-              <p><img src="img/railsbridge_logo.png"></p><h1>Ruby on Rails Installfest</h1><h3>August 31st, 2009</h3><h5>wireless:</h5><h5>hashtag: #sfruby</h5>
+              <p><img src="img/railsbridge_logo.png"></p><h1>Ruby on Rails Installfest</h1><h3>October 3rd, 2009</h3><h5>wireless: rails pwd: alohaonrails</h5><h5>hashtag: #alohaonrails</h5>
             </div>
           </div>
         
           <div class="">
             <div id="slide-1" class="content">
-              <h1>Schedule for tonight</h1><ul>
-<li>6:00 - Welcome</li>
-<li>6:15 - Food arrives</li>
-<li>7:00 - Install!</li>
+              <h1>Our Amazing Sponsors</h1><ul>
+<li>IBM</li>
+<li>DevChix and RailsBridge</li>
 </ul>
             </div>
           </div>
         
           <div class="">
             <div id="slide-2" class="content">
-              <h1>Schedule for tomorrow</h1><ul>
-<li>9:30 - Arrive, continental breakfast</li>
-<li>10:00 - 4:00 - Workshop</li>
-<li>5:00 - ? - Afterparty @ Jillian's</li>
-</ul>
-            </div>
-          </div>
-        
-          <div class="">
-            <div id="slide-3" class="content">
-              <h1>Our Amazing Sponsors</h1><ul>
-<li>Pivotal Labs</li>
-<li>Engine Yard</li>
-<li>Heroku</li>
-<li>Triptych Restaurant</li>
-<li>PeepCode</li>
-<li>DevChix and RailsBridge
-and the SF Ruby meetup!</li>
-</ul>
-            </div>
-          </div>
-        
-          <div class="">
-            <div id="slide-4" class="content">
-              <p>Bookmark:</p><h3>http://wiki.devchix.com/index.php?title=Workshop_Installation_Notes</h3><p>Note:</p><h3>Rails 2.3.2 is recommended</h3>
+              <p>Bookmark:</p><h3>http://wiki.devchix.com/index.php?title=Workshop_Installation_Notes</h3>
             </div>
           </div>
         
