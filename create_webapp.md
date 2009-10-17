@@ -113,3 +113,7 @@
 &nbsp;
     heroku create
     git push heroku master
+
+!SLIDE
+
+<img src="http://github.com/alexch/mission/raw/678c36599c3f49ed4512bac91038179380ce1f01/git.png"/>
