@@ -119,6 +119,33 @@ ul {
 .code .il { color: #009999 } /* Literal.Number.Integer.Long */
     </style>
     
+      <style type="text/css" media="screen">
+        .centereverything {
+  text-align: center;
+}
+
+.slide-hilite {
+  text-color: red;
+}
+
+.big-text {
+  font-size: 150%;
+}
+
+.table-code {
+  font-family: Bitstream Vera Sans Mono;
+}
+li {
+    padding: 8;
+}
+
+td {
+    font-size: 32px; 
+    padding: 8;
+}
+
+      </style>
+    
     <script type="text/javascript">
       /*!
  * jQuery JavaScript Library v1.3.2
@@ -4794,31 +4821,23 @@ jQuery.extend( jQuery.easing,
   
   var move = function(event) {
     var DIRECTIONS = {
+      1: -1,  // LEFT MOUSE BTN
+      3: 1,   // RIGHT MOUSE BTN
       37: -1, // ARROW LEFT
       39: 1,  // ARROW RIGHT
       32: 1,  // SPACE BAR
-      13: 1,   // RETURN
-      left: -1,
-      right: 1
+      13: 1   // RETURN
     }
     
-    if (dir = DIRECTIONS[event.which || event]) {
+    if (dir = DIRECTIONS[event.which]) {
       setIndex(getIndex() + dir);
-    }
-  }
-  
-  function clickMove(e) {
-    if (e.pageX < ($(window).width() / 2)) {
-      move('left');
-    } else {
-      move('right');
     }
   }
   
   $(window).bind('resize', function() { adjustSlides(); });
   $(document).bind('keydown', move);
+  $(document).bind('click', move);
   $(document).bind('hash.changed', adjustSlides);
-  $(document).bind('click', clickMove);
   $(document).ready(function() {
     setIndex(getIndex() || 0);
     $(this).trigger('hash.changed');
@@ -4827,6 +4846,7 @@ jQuery.extend( jQuery.easing,
     }
   });
 })(jQuery);
+
     </script>
     
   </head>
@@ -4980,6 +5000,12 @@ git commit -m 'basic web application'
               <p>&nbsp;</p><pre><code>heroku create
 git push heroku master
 </code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-11" class="content">
+              <p><img src="http://github.com/alexch/mission/raw/678c36599c3f49ed4512bac91038179380ce1f01/git.png"></p>
             </div>
           </div>
         

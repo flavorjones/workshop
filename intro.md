@@ -27,6 +27,10 @@
 
 !SLIDE
 
+# Why are we here?
+
+!SLIDE
+
 # What is Ruby on Rails?
 
 !SLIDE centereverything
