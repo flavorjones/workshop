@@ -4,7 +4,8 @@
 ## Novice session
 * [Introduction to Programming](programming_intro.html)_
 
-## Full Sessions
+## Sessions
+* [Introduction to Ruby](ruby_intro.html)
 * [Create Webapp](create_webapp.html)
 * [Add Topics](add_topics.html)
 * [Votes](votes.html)
