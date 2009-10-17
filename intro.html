@@ -119,6 +119,33 @@ ul {
 .code .il { color: #009999 } /* Literal.Number.Integer.Long */
     </style>
     
+      <style type="text/css" media="screen">
+        .centereverything {
+  text-align: center;
+}
+
+.slide-hilite {
+  text-color: red;
+}
+
+.big-text {
+  font-size: 150%;
+}
+
+.table-code {
+  font-family: Bitstream Vera Sans Mono;
+}
+li {
+    padding: 8;
+}
+
+td {
+    font-size: 32px; 
+    padding: 8;
+}
+
+      </style>
+    
     <script type="text/javascript">
       /*!
  * jQuery JavaScript Library v1.3.2
@@ -4794,31 +4821,23 @@ jQuery.extend( jQuery.easing,
   
   var move = function(event) {
     var DIRECTIONS = {
+      1: -1,  // LEFT MOUSE BTN
+      3: 1,   // RIGHT MOUSE BTN
       37: -1, // ARROW LEFT
       39: 1,  // ARROW RIGHT
       32: 1,  // SPACE BAR
-      13: 1,   // RETURN
-      left: -1,
-      right: 1
+      13: 1   // RETURN
     }
     
-    if (dir = DIRECTIONS[event.which || event]) {
+    if (dir = DIRECTIONS[event.which]) {
       setIndex(getIndex() + dir);
-    }
-  }
-  
-  function clickMove(e) {
-    if (e.pageX < ($(window).width() / 2)) {
-      move('left');
-    } else {
-      move('right');
     }
   }
   
   $(window).bind('resize', function() { adjustSlides(); });
   $(document).bind('keydown', move);
+  $(document).bind('click', move);
   $(document).bind('hash.changed', adjustSlides);
-  $(document).bind('click', clickMove);
   $(document).ready(function() {
     setIndex(getIndex() || 0);
     $(this).trigger('hash.changed');
@@ -4827,6 +4846,7 @@ jQuery.extend( jQuery.easing,
     }
   });
 })(jQuery);
+
     </script>
     
   </head>
@@ -4836,15 +4856,7 @@ jQuery.extend( jQuery.easing,
         
           <div class=" centereverything">
             <div id="slide-0" class="content">
-              <table><tr>
-<td>
-<img src="img/railsbridge_logo.png">
-</td>
-<td>
-<img src="img/aloha_on_rails.png" height="250">
-</td>
-</tr></table>
-<h2>Aloha on Rails</h2><h1>Ruby on Rails Workshop</h1><h3>October 3rd, 2009</h3><h5>wireless: rails3 - no pwd</h5><h5>hashtag: #alohaonrails</h5>
+              <p><img src="img/railsbridge_logo.png"></p><h2>Berkman Center for Internet &amp; Society</h2><h1>Ruby on Rails Workshop</h1><h3>October 16th, 2009</h3><h5>hashtag: #rorw4w</h5><h5>irc: #boston.rb</h5>
             </div>
           </div>
         
@@ -4872,30 +4884,24 @@ jQuery.extend( jQuery.easing,
         
           <div class="">
             <div id="slide-2" class="content">
-              <p><img src="img/ibm.png"></p>
+              <p><img src="http://www.hashrocket.com/images/logo.png?1254933458"></p><p><img src="http://i.zdnet.com/blogs/engine-yard-logo.png">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <img src="http://fi.github.com/images/modules/demo/github_logo.png"></p><p><img src="http://railsbridge.org/images/logo.png"></p>
             </div>
           </div>
         
           <div class="">
             <div id="slide-3" class="content">
-              <h1>Format</h1>
-            </div>
-          </div>
-        
-          <div class="">
-            <div id="slide-4" class="content">
               <h1>What is Ruby on Rails?</h1>
             </div>
           </div>
         
           <div class=" centereverything">
-            <div id="slide-5" class="content">
+            <div id="slide-4" class="content">
               <p><img src="img/web-application.png"></p>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-6" class="content">
+            <div id="slide-5" class="content">
               <table width="100%">
 <tr>
 <td align="center">
@@ -4915,7 +4921,7 @@ jQuery.extend( jQuery.easing,
           </div>
         
           <div class="">
-            <div id="slide-7" class="content">
+            <div id="slide-6" class="content">
               <table width="100%">
 <tr>
 <td align="center">
@@ -4939,15 +4945,27 @@ jQuery.extend( jQuery.easing,
           </div>
         
           <div class="">
-            <div id="slide-8" class="content">
+            <div id="slide-7" class="content">
               <h2>Ruby: programming language</h2><ul>
 <li>Object oriented</li>
 <li>General purpose</li>
 </ul>
-<h2>Rails: web application framework</h2><ul>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-8" class="content">
+              <h2>Rails: web application framework</h2><ul>
 <li>Database agnostic</li>
-<li>Open source</li>
-<li>History: 37signals</li>
+<li>Built using the Ruby Language</li>
+<li>History
+
+<ul>
+<li>37signals</li>
+<li>2004 - first released as open source</li>
+<li>2007 - shipped with Mac OS 10.5 "Leopard"</li>
+</ul>
+</li>
 </ul>
             </div>
           </div>
@@ -5012,14 +5030,14 @@ jQuery.extend( jQuery.easing,
           <div class=" ">
             <div id="slide-14" class="content">
               <h1>Schedule</h1><ul>
-<li>9:00-9:30 sign in, breakfast</li>
-<li>9:30-10:00 intro</li>
-<li>10:00-10:50 session 1</li>
-<li>11:00-11:50 session 2</li>
-<li>12:00-1:00 lunch out</li>
-<li>1:00-1:50 session 3</li>
-<li>2:00-2:50 session 4</li>
-<li>3:00-4:00 wrap up; final questions</li>
+<li>9:30 sign in, coffee &amp; tea</li>
+<li>10:00-10:30 introduction</li>
+<li>10:30 - 11:10 session 1</li>
+<li>11:20 - noon session 2</li>
+<li>12:10-1:00 session 3</li>
+<li>1:00 - 2:00 lunch</li>
+<li>2:00 - 3:15 session 4</li>
+<li>3:30 - 4:00 wrap up; final questions</li>
 </ul>
             </div>
           </div>

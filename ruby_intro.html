@@ -119,6 +119,33 @@ ul {
 .code .il { color: #009999 } /* Literal.Number.Integer.Long */
     </style>
     
+      <style type="text/css" media="screen">
+        .centereverything {
+  text-align: center;
+}
+
+.slide-hilite {
+  text-color: red;
+}
+
+.big-text {
+  font-size: 150%;
+}
+
+.table-code {
+  font-family: Bitstream Vera Sans Mono;
+}
+li {
+    padding: 8;
+}
+
+td {
+    font-size: 32px; 
+    padding: 8;
+}
+
+      </style>
+    
     <script type="text/javascript">
       /*!
  * jQuery JavaScript Library v1.3.2
@@ -4794,31 +4821,23 @@ jQuery.extend( jQuery.easing,
   
   var move = function(event) {
     var DIRECTIONS = {
+      1: -1,  // LEFT MOUSE BTN
+      3: 1,   // RIGHT MOUSE BTN
       37: -1, // ARROW LEFT
       39: 1,  // ARROW RIGHT
       32: 1,  // SPACE BAR
-      13: 1,   // RETURN
-      left: -1,
-      right: 1
+      13: 1   // RETURN
     }
     
-    if (dir = DIRECTIONS[event.which || event]) {
+    if (dir = DIRECTIONS[event.which]) {
       setIndex(getIndex() + dir);
-    }
-  }
-  
-  function clickMove(e) {
-    if (e.pageX < ($(window).width() / 2)) {
-      move('left');
-    } else {
-      move('right');
     }
   }
   
   $(window).bind('resize', function() { adjustSlides(); });
   $(document).bind('keydown', move);
+  $(document).bind('click', move);
   $(document).bind('hash.changed', adjustSlides);
-  $(document).bind('click', clickMove);
   $(document).ready(function() {
     setIndex(getIndex() || 0);
     $(this).trigger('hash.changed');
@@ -4827,6 +4846,7 @@ jQuery.extend( jQuery.easing,
     }
   });
 })(jQuery);
+
     </script>
     
   </head>
@@ -4876,15 +4896,9 @@ jQuery.extend( jQuery.easing,
             </div>
           </div>
         
-          <div class="">
+          <div class=" ">
             <div id="slide-4" class="content">
-              <h4>The Java language is:</h4><ul>
-<li>simple, object oriented, and familiar.</li>
-<li>robust and secure.</li>
-<li>architecture neutral and portable.</li>
-<li>high performance.</li>
-<li>interpreted, threaded, and dynamic.</li>
-</ul>
+              <h3>Ruby 1.0 released in 1996</h3><h3>open source</h3>
             </div>
           </div>
         
@@ -4952,58 +4966,165 @@ jQuery.extend( jQuery.easing,
         
           <div class="">
             <div id="slide-13" class="content">
-              <p>Variables, symbols, constants</p>
+              <p>Methods are messages</p>
             </div>
           </div>
         
           <div class="">
             <div id="slide-14" class="content">
-              <p>&nbsp;</p><pre><code>var 
-@var
-@@var
-$var
-:var
-VAR
+              <pre><code>thing.do(4)
+thing.do 4
+thing.send "do", 4
 </code></pre>
             </div>
           </div>
         
           <div class="">
             <div id="slide-15" class="content">
-              <p>&nbsp;</p><pre><code>var   # could be a local variable
-@var  # instance variable
-@@var # class variable
-$var  # global variable
-:var  # symbol
-VAR   # constant
-</code></pre>
+              <p>Operators are Methods</p>
             </div>
           </div>
         
           <div class="">
             <div id="slide-16" class="content">
-              <p>Collections</p>
+              <pre><code>1 + 2
+1.+(2)
+1.send "+", 2
+</code></pre>
             </div>
           </div>
         
           <div class="">
             <div id="slide-17" class="content">
-              <pre><code>my_array = ["cat", "dog", &rdquo;world"]
-my_hash = { :type =&gt; "cat", 
-            :name =&gt; "Beckett",  
-            :breed =&gt; "alley cat" }
+              <pre><code># is a comment
 </code></pre>
             </div>
           </div>
         
           <div class="">
             <div id="slide-18" class="content">
-              <p>Iteration</p>
+              <h4>Ruby aims to be elegant and readable</h4><h4>so punctuation and boilerplate are minimal</h4>
             </div>
           </div>
         
           <div class="">
             <div id="slide-19" class="content">
+              <p>You don't need semicolons</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-20" class="content">
+              <p>Use parens when you need them</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-21" class="content">
+              <pre><code>&gt;&gt; "Hello".gsub 'H', 'h' 
+=&gt; "hello"
+
+&gt;&gt; "Hello".gsub("H", "h").reverse 
+=&gt; "olleh"
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-22" class="content">
+              <p>Variables, symbols, constants</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-23" class="content">
+              <h2>:this_is_a_symbol</h2><p>There is only one representation of a given symbol in memory, so it really
+means "the thing named :this_is_a_symbol" to the ruby interpreter.
+In ruby,
+we prefer symbols over hardcoded globals or strings. They're very lightweight.</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-24" class="content">
+              <p>Collections</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-25" class="content">
+              <p>Arrays are sized dynamically and can be of mixed types.</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-26" class="content">
+              <pre><code>a = [1, 2, 3]
+a.push "four" #=&gt; [1, 2, 3, "four"]
+a.pop #=&gt; "four"
+a[0] #=&gt; 1
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-27" class="content">
+              <p>Hashes are like an associative map</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-28" class="content">
+              <pre><code>states = {"MA" =&gt; "Massachusetts", "CA" =&gt; "California"}
+states["MA"]
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-29" class="content">
+              <pre><code>my_hash = {:a_symbol =&gt; 3, "a string" =&gt; 4}
+my_hash[:a_symbol] 
+=&gt; 3
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-30" class="content">
+              <p>String interpolation</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-31" class="content">
+              <p>"string #{ruby code} string"</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-32" class="content">
+              <pre><code>&gt;&gt; a = "world"   
+&gt;&gt; puts "hello #{a}"
+hello world
+&gt;&gt; a = 2
+&gt;&gt; puts "hello #{a}"
+hello 2
+&gt;&gt; a = nil
+&gt;&gt; puts "hello #{a}"
+hello 
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-33" class="content">
+              <p>Iteration</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-34" class="content">
               <pre><code>my_array = ["cat", "dog", &rdquo;world"]
 my_array.each do |item|
   puts "hello " + item
@@ -5013,7 +5134,7 @@ end
           </div>
         
           <div class="">
-            <div id="slide-20" class="content">
+            <div id="slide-35" class="content">
               <pre><code>my_hash = { :type =&gt; "cat", 
             :name =&gt; "Beckett", 
             :breed =&gt; "alley cat" }
@@ -5025,42 +5146,198 @@ end
           </div>
         
           <div class="">
-            <div id="slide-21" class="content">
-              <p>Methods are messages</p>
+            <div id="slide-36" class="content">
+              <p>Classes and methods</p>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-22" class="content">
-              <pre><code>thing.do(4)
-thing.do 4
-thing.send "do", 4
+            <div id="slide-37" class="content">
+              <pre><code>class Thing
+  def return_something
+    "something"
+  end
+end
 </code></pre>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-23" class="content">
+            <div id="slide-38" class="content">
+              <pre><code>class Thing
+  def do_something(a,b)
+    a + b 
+  end
+end
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-39" class="content">
+              <p>&nbsp;</p><pre><code>var 
+@var
+@@var
+$var
+VAR
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-40" class="content">
+              <p>&nbsp;</p><pre><code>var   # could be a local variable
+@var  # instance variable
+@@var # class variable
+$var  # global variable
+VAR   # constant
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-41" class="content">
+              <p>Methods can take blocks, which are like anonymous functions.</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-42" class="content">
+              <pre><code>my_array = ["cat", "dog", &rdquo;world"]
+my_array.each do |item|
+  puts "hello " + item
+end
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-43" class="content">
+              <p>   def do_something</p><pre><code>  yield
+</code></pre><p>   end</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-44" class="content">
+              <pre><code>[1, 2, 3].each do |item|
+   puts "#{item} is #{item.even? ? "even" : "odd"}."
+end
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-45" class="content">
+              <p>Blocks can also return a value. Map translates each item in an array.</p>
+            </div>
+          </div>
+        
+          <div class="
+  ">
+            <div id="slide-46" class="content">
+              <pre><code>&gt;&gt; ["hello", "world"].map{ |string| string.upcase } 
+=&gt; ["HELLO", "WORLD"]
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-47" class="content">
+              <h4>more neat things about ruby</h4>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-48" class="content">
+              <h4>duck typing</h4>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-49" class="content">
+              <pre><code>def print_even_or_odd(array_like_thing)
+  array_like_thing.each do |item|
+    puts "#{item} is #{item.even? ? "even" : "odd"}."
+  end
+end
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-50" class="content">
+              <pre><code>print_even_or_odd [1, 2, 3]
+print_even_or_odd 1..3
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-51" class="content">
+              <h4>advanced ruby</h4>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-52" class="content">
+              <h4>meta-programming</h4><h4>creating Domain-Specific Languages (DSLs)</h4>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-53" class="content">
+              <h1>Rails</h1><h1>Rake</h1><h1>Cucumber</h1><h1>Rspec</h1><h1>etc</h1>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-54" class="content">
               <pre><code>method_missing
 </code></pre>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-24" class="content">
-              <p>Classes and methods</p>
+            <div id="slide-55" class="content">
+              <h4>private vs public</h4>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-25" class="content">
-              <pre><code>class MyClass
-  def my_method
-    puts "Doing something " +
-         "REALLY IMPORTANT."
+            <div id="slide-56" class="content">
+              <h4>Private really just means "please don't come in."</h4><h4>&nbsp;</h4><h4>If someone has access to your runtime environment, they are trusted.</h4><h4>&nbsp;</h4><h4>Spend your time writing code (and testing it), not protecting yourself from other programmers.</h4>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-57" class="content">
+              <pre><code>class Fixnum
+  def even?
+    self % 2 == 0
   end
 end
+
+1.even? #=&gt; false
 </code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-58" class="content">
+              <h4>everything is an object</h4>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-59" class="content">
+              <h4>Classes are objects</h4><h4>&nbsp;</h4><h4>class methods are really just methods on the class object.</h4><h4>&nbsp;</h4><h4>Code evaluated in the scope of a class definition acts on the class object.</h4>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-60" class="content">
+              <p>Have fun!</p>
             </div>
           </div>
         
