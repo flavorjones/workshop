@@ -3,7 +3,7 @@
 <img src="img/railsbridge_logo.png">
 ## Berkman Center for Internet & Society 
 # Ruby on Rails Workshop
-### October 16th, 2009
+### October 17th, 2009
 #####hashtag: #rorw4w
 #####irc: #boston.rb
 
