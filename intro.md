@@ -7,13 +7,13 @@
 </td></tr></table>
 ## Aloha on Rails
 # Ruby on Rails Workshop
-### October 3rd, 2009
+### October 4th, 2009
 #####wireless: rails3 - no pwd
 #####hashtag: #alohaonrails
 
 !SLIDE
 
-# Open source workshop
+## Open source workshop
 * Community project
   * Many individuals 
   * RailsBridge
@@ -21,6 +21,7 @@
 * Open materials
   * Workshop planning: DevChix wiki
   * Slides: github, slidedown
+  * github.com/railsbridge
 
 !SLIDE
 <img src="img/ibm.png">
@@ -90,7 +91,10 @@
 * History: 37signals
 
 !SLIDE
-# The Rails Philosophy
+<img src="img/mvc.jpg">
+
+!SLIDE
+## The Rails Philosophy
 * Opinionated
 * Convention over configuration
 * DRY (Don't Repeat Yourself)
@@ -99,38 +103,38 @@
 * Minimal code - maximal effect
 
 !SLIDE
-# Agile development
+## Agile development
 
-<img src="http://img.skitch.com/20090801-jafkfs4eeawy19k9f3mjknb4ht.jpg"/>
+<img src="img/agile.jpg"/>
 
 * Pair programming
 * Test-driven or Behavior-driven development
 
 
 !SLIDE
-# Goal
+## Goal
 * By the end of the day, you will have built and deployed a web application live on the internet
 
 !SLIDE
-# Tools we'll be working with
+## Tools we'll be working with
 * **rails**
-* **rake**: like make for ruby, easy way to run tasks
-* **git**: for source code control
-* **database**: we'll use sqlite, but could be any relational database 
-* **editor**
-* **heroku**: free rails hosting
+* **rake**: like make for Ruby. An easy way to run tasks.
+* **git**: source code control.
+* **database**: we'll use SQLite, but could be any relational database.
+* **editor**: KomodoEdit.
+* **heroku**: free Rails hosting.
 
 !SLIDE
-# Today's project
-<a href="http://www.ultrasaurus.com/rubyworkshop/app_design/"><img src="http://www.ultrasaurus.com/rubyworkshop/app_design/unauthenticated_home-0.jpg" width="946" height="420"/></a>
+## Today's project
+<a href="http://www.ultrasaurus.com/rubyworkshop/app_design/"><img src="img/unauthenticated_home-0.jpg" width="946" height="420"/></a>
 
 !SLIDE 
-# Schedule
-* 9:00-9:30 sign in, breakfast
-* 9:30-10:00 intro
-* 10:00-10:50 session 1
-* 11:00-11:50 session 2
-* 12:00-1:00 lunch out
-* 1:00-1:50 session 3
-* 2:00-2:50 session 4
-* 3:00-4:00 wrap up; final questions
+## Schedule
+* 9:00-9:30 Sign in, breakfast
+* 9:30-10:00 Intro
+* 10:00-10:50 Part 1: Ruby bootcamp
+* 11:00-11:50 Part 2: Creating the app
+* 12:00-1:00 Lunch out
+* 1:00-1:50 Part 3: Associations
+* 2:00-2:50 Part 4: Authentication
+* 3:00-4:00 Wrap up & final questions
