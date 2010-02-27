@@ -1,15 +1,11 @@
 !SLIDE centereverything
 
-<table><tr><td>
 <img src="img/railsbridge_logo.png">
-</td><td>
-<img src="img/aloha_on_rails.png" height="250">
-</td></tr></table>
-## Aloha on Rails
+## SF Ruby Meetup 
 # Ruby on Rails Workshop
-### October 4th, 2009
-#####wireless: rails3 - no pwd
-#####hashtag: #alohaonrails
+### February 27th, 2010
+#####wireless: 
+#####hashtag: #sfruby
 
 !SLIDE
 
@@ -24,10 +20,14 @@
   * github.com/railsbridge
 
 !SLIDE
-<img src="img/ibm.png">
+ 
+<img src="http://i.zdnet.com/blogs/engine-yard-logo.png" />&nbsp;&nbsp;<img src="img/blazing_cloud_logo_sticker.jpg">
+ 
+<img src="http://railsbridge.org/images/logo.png" />&nbsp;&nbsp;<img src="http://pivotallabs.com/images/pivotal.gif" />
 
 !SLIDE
-# Format
+
+# Why are we here?
 
 !SLIDE
 
@@ -85,10 +85,15 @@
 * Object oriented
 * General purpose
 
+!SLIDE
+
 ## Rails: web application framework
 * Database agnostic
-* Open source
-* History: 37signals
+* Built using the Ruby Language
+* History
+  * 37signals 
+  * 2004 - first released as open source
+  * 2007 - shipped with Mac OS 10.5 "Leopard"
 
 !SLIDE
 <img src="img/mvc.jpg">
@@ -98,7 +103,7 @@
 * Opinionated
 * Convention over configuration
 * DRY (Don't Repeat Yourself)
-    * less code means it's easier to maintain & modify
+  * less code means it's easier to maintain & modify
 * Test Driven Development (TDD)
 * Minimal code - maximal effect
 
@@ -130,11 +135,12 @@
 
 !SLIDE 
 ## Schedule
-* 9:00-9:30 Sign in, breakfast
-* 9:30-10:00 Intro
-* 10:00-10:50 Part 1: Ruby bootcamp
-* 11:00-11:50 Part 2: Creating the app
-* 12:00-1:00 Lunch out
-* 1:00-1:50 Part 3: Associations
-* 2:00-2:50 Part 4: Authentication
-* 3:00-4:00 Wrap up & final questions
+* 9:30-10:00 Sign in, get coffee
+* 10:00-10:30 Intro
+* 10:30-11:20 Part 1: Ruby bootcamp
+* 11:30-12:20 Part 2: Creating the app
+* 12:30-1:30 Lunch (Mediterranean)
+* 1:30-2:20 Part 3: Associations
+* 2:30-3:20 Part 4: Authentication
+* 3:30-4:00 Wrap up & final questions
+* 4:30-?? Afterparty @ Thirsty Bear
